@@ -1,0 +1,1 @@
+﻿// Validate Photos have a valid owner in the "user" pointer.Parse.Cloud.beforeSave('Stories', function(request, response) {  var currentUser = request.user;  var objectUser = request.object.get('user');    response.success();  /*if(!currentUser || !objectUser) {    response.error('A Photo should have a valid user.');  } else {    response.success();  }*/});

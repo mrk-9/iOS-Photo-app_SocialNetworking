@@ -1,0 +1,37 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "C6185A6A29068429967A9EC986894CE238EDE21C+++88E7AC7",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "C6185A6A29068429967A9EC986894CE238EDE21C+++88E7AC7" : 0,
+    "C6185A6A29068429967A9EC986894CE238EDE21C+++7C7A71A" : 0,
+    "C6185A6A29068429967A9EC986894CE238EDE21C+++D4B9B7F" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "25D32D35-FE41-4668-9A2E-0F0F78CAF948",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "C6185A6A29068429967A9EC986894CE238EDE21C+++88E7AC7" : "SocialNetwork-ChupaMobile",
+    "C6185A6A29068429967A9EC986894CE238EDE21C+++7C7A71A" : "Downloads\/SocialNetwork-ChupaMobile\/",
+    "C6185A6A29068429967A9EC986894CE238EDE21C+++D4B9B7F" : "Social%20Networking"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "SocialNetwork",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "SocialNetwork.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/bitbucket.org\/eric_schanet\/social-network.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "C6185A6A29068429967A9EC986894CE238EDE21C+++7C7A71A"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/bitbucket.org\/eric_schanet\/social-network.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "C6185A6A29068429967A9EC986894CE238EDE21C+++88E7AC7"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/bitbucket.org\/eric_schanet\/social-network.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "C6185A6A29068429967A9EC986894CE238EDE21C+++D4B9B7F"
+    }
+  ]
+}

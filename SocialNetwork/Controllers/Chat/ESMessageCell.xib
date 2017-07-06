@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9060" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ESMessageCell" id="KGk-i7-Jjw" customClass="ESMessageCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="70"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="69"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="AvatarPlaceholderProfile.png" translatesAutoresizingMaskIntoConstraints="NO" id="Ifk-Hu-PIe" customClass="PFImageView">
+                        <rect key="frame" x="10" y="10" width="50" height="50"/>
+                        <animations/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="50" id="Fkf-De-WH7"/>
+                            <constraint firstAttribute="width" constant="50" id="Ocz-rb-Dyr"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Description" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uxG-h3-jPt">
+                        <rect key="frame" x="78" y="13" width="182" height="21"/>
+                        <animations/>
+                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="15"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Last message" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ois-e3-M4I">
+                        <rect key="frame" x="78" y="33" width="182" height="21"/>
+                        <animations/>
+                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="13"/>
+                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Just now" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aCl-zV-J5y">
+                        <rect key="frame" x="260" y="13" width="50" height="21"/>
+                        <animations/>
+                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="12"/>
+                        <color key="textColor" red="0.33333304520000001" green="0.69366449119999996" blue="0.94353973869999996" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Delivered" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rh0-IP-lh7">
+                        <rect key="frame" x="254" y="33" width="58" height="21"/>
+                        <animations/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="DE0-a8-2pg"/>
+                            <constraint firstAttribute="width" constant="58" id="sSM-Nk-5Xp"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="12"/>
+                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <animations/>
+                <constraints>
+                    <constraint firstItem="uxG-h3-jPt" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="70" id="C0E-vf-km8"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="Ois-e3-M4I" secondAttribute="bottom" constant="7" id="JKB-NQ-PB4"/>
+                    <constraint firstItem="Ois-e3-M4I" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="70" id="OLG-Wa-mgo"/>
+                    <constraint firstItem="aCl-zV-J5y" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="5" id="Oeo-66-fhj"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="Ois-e3-M4I" secondAttribute="trailing" constant="52" id="UgS-R0-THc"/>
+                    <constraint firstItem="aCl-zV-J5y" firstAttribute="top" secondItem="uxG-h3-jPt" secondAttribute="top" id="bY1-BP-yVp"/>
+                    <constraint firstItem="Ifk-Hu-PIe" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="2" id="bdP-m7-4ko"/>
+                    <constraint firstItem="Ois-e3-M4I" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="25" id="bq0-Ui-D9Y"/>
+                    <constraint firstItem="Ifk-Hu-PIe" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="2" id="cx3-Bc-neE"/>
+                    <constraint firstItem="aCl-zV-J5y" firstAttribute="bottom" secondItem="uxG-h3-jPt" secondAttribute="bottom" id="gJh-rz-4Bu"/>
+                    <constraint firstItem="aCl-zV-J5y" firstAttribute="leading" secondItem="uxG-h3-jPt" secondAttribute="trailing" id="iyA-WT-nK3"/>
+                    <constraint firstItem="rh0-IP-lh7" firstAttribute="trailing" secondItem="H2p-sc-9uM" secondAttribute="trailingMargin" id="jUX-gF-Rj3"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="aCl-zV-J5y" secondAttribute="trailing" constant="2" id="jg5-Rs-31l"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="rh0-IP-lh7" secondAttribute="bottom" constant="7" id="mJ7-tM-dfo"/>
+                    <constraint firstItem="Ois-e3-M4I" firstAttribute="trailing" secondItem="uxG-h3-jPt" secondAttribute="trailing" id="rut-pS-0r2"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="aCl-zV-J5y" secondAttribute="bottom" constant="27" id="v7T-vd-5dO"/>
+                </constraints>
+            </tableViewCellContentView>
+            <animations/>
+            <connections>
+                <outlet property="description" destination="uxG-h3-jPt" id="b3a-Lp-dMx"/>
+                <outlet property="elapsed" destination="aCl-zV-J5y" id="h5R-lS-sJi"/>
+                <outlet property="imgUser" destination="Ifk-Hu-PIe" id="dEw-Vh-pW0"/>
+                <outlet property="lastMessage" destination="Ois-e3-M4I" id="Wvu-uf-nWi"/>
+                <outlet property="readLabel" destination="rh0-IP-lh7" id="zQd-w1-XpW"/>
+            </connections>
+            <point key="canvasLocation" x="-36" y="558"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="AvatarPlaceholderProfile.png" width="182" height="182"/>
+    </resources>
+</document>
